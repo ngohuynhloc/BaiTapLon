@@ -1,0 +1,74 @@
+
+:root {
+    --main-color: #026bb1;
+    --dark-color: #34495e;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+/* main */
+.introduce .card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.introduce .card:hover {
+    transform: translateY(-3px);
+}
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+    background:var(--main-color);
+    color: white;
+}
+
+.btn-custom {
+    background:rgba(50, 185, 248, 0.989);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+.btn-custom:hover {
+    background: var(--main-color);
+    color: #f8f9fa;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+.feature-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+.scrollable-content {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.scrollable-content .card {
+    margin-bottom: 15px;
+}
+/* employer */
+
+  .employer-item {
+    display: flex;
+    align-items: center;
+    height: 30%;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .employer-item:last-child {
+    border-bottom: none;
+  }
+  
+  .employer-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .employer-info p {
+    margin: 0;
+  }
